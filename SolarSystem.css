@@ -1,0 +1,112 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+body {
+    /* background-image: url(bg2.jpg); */
+    background-image: url(Azharimages/starsfloating.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    align-items: center;
+     margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(91, 33, 130, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(238, 165, 61, 1) 100%);
+    backdrop-filter: blur(5px);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: transparent; */
+    background: linear-gradient(90deg, rgba(91,33,130,1) 0%, rgba(253,29,29,1) 50%, rgba(238,165,61,1) 100%);
+    backdrop-filter: blur(5px);
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #4f2e2e;
+    transition: all 0.5s;
+}
+
+
+img:hover {
+    -webkit-filter: none;
+    filter: none;
+}
+
+.static {
+    position: absolute;
+    background-color: white;
+}
+
+.static:hover {
+    opacity: 0;
+}
+
+table {
+    padding-left: 100px;
+}
+
+.sun,
+.mars,
+.neptune,
+.saturn,
+.venus {
+    width: 50%;
+}
+
+.mercury {
+    width: 30%;
+}
+
+.earth {
+    width: 40%;
+}
+
+.uranus {
+    width: 60%;
+}
+
+.planetsinformation {
+    height: 150px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.386);
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#infos {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    align-items: center;
+
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: rgb(57, 51, 121);
+}
+small{
+    color: aliceblue;
+}

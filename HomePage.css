@@ -1,0 +1,199 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+body {
+    background-image: url(Azharimages/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    align-items: center;
+}
+
+#maintitle {
+    padding-top: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 1350px;
+    /* width: 90%; */
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+
+}
+
+pre {
+    opacity: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+pre:hover {
+    background-color: #00000055;
+    opacity: 100%;
+    transition: all 0.5s;
+}
+
+.maintitleh1 {
+    font-size: 65px;
+}
+
+.maintitlep {
+    font-size: 25px;
+}
+
+#maintitle:hover {
+    -webkit-filter: none;
+    filter: none;
+    transition: all 0.5s;
+}
+
+/* sections */
+.section {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 250px);
+    padding-left: 9%;
+    font-size: 25px;
+}
+
+.section>div {
+    padding: 10px;
+    background-color: #3d1c47;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,.maintitleh1:hover {
+    text-shadow: 0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 40px #ffffff;
+    color: white;
+    transition: all 0.3s;
+}
+
+.solarsystempg {
+    background-image: url(Azharimages/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.spacefactspg {
+    background-image: url(Azharimages/img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.saudiinspacepg {
+    background-image: url(Azharimages/img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.astronautspg {
+    background-image: url(Azharimages/img4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.cinemapg {
+    background-image: url(Azharimages/img5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.gallerypg {
+    background-image: url(Azharimages/img6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.testpg {
+    background-image: url(Azharimages/pic5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.expandpg {
+    background-image: url(Azharimages/img8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.newdiscovriespg {
+    background-image: url(Azharimages/img9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.solarsystempg:hover,
+.spacefactspg:hover,
+.saudiinspacepg:hover,
+.astronautspg:hover,
+.cinemapg:hover,
+.gallerypg:hover,
+.testpg:hover,
+.expandpg:hover,
+.newdiscovriespg:hover {
+    -webkit-filter: none;
+    filter: none;
+}
+
+textarea {
+    background-color: rgba(0, 0, 0, 0.378);
+    border: 2px dashed white;
+}
+
+h2,
+textarea {
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    color: #fff;
+
+    font-family: "Farfetch Basis";
+    font-weight: 700;
+
+    padding: 9px 20px 8px;
+}
+
+button:hover,
+button:focus {
+    opacity: .75;
+}

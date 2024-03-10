@@ -1,0 +1,92 @@
+body {
+  background-image: url("images/galleryBackground.png");
+  background-attachment: fixed;
+  background-size: cover;
+  text-shadow: black -1px 1px 2px, black 1px -1px 2px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background:rgba(18, 24, 46) 50%;
+  backdrop-filter: blur(5px);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgba(71, 45, 102);
+  transition: all 0.5s;
+}
+
+.banner {
+  background-image: url('images/banner1.jpg');
+  float: left;
+
+}
+
+.banner2 {
+  background-image: url('images/banner2.jpg');
+  float: right;
+  clear: both;       
+}
+
+.banner .banner-text {
+  padding-top: 140px;
+  text-align: center;
+  font-size: 80px;
+}
+
+.light-on-dark {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 30%;
+  height: 1200px;
+  border: 7px solid;
+  border-color: black;
+} 
+        
+        
+table{
+  margin-top: 60px;
+  margin-left: 10px;
+	padding: 70px;	
+}
+
+table img{
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 7px solid;
+  border-color: black;
+}
+
+table img:hover {
+  transform: scale(1.08);
+  transition: 1s;
+}
+
+footer {
+  background-color: rgb(18, 24, 46);
+  text-align: center;
+  padding: 20px;
+  font-size: 20x;
+}
+    

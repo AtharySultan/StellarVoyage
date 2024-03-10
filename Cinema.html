@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Video Page</title>
+    <link rel="stylesheet" href="Cinema.css">
+</head>
+
+
+<body>
+     <ul>
+        <li><a href="HomePage.html">Home</a></li>
+        <li><a href="SolarSystem.html">Solar System</a></li>
+        <li><a href="Facts.html">Space Facts</a></li>
+        <li><a href="Saudi.html">Saudi in Space</a></li>
+        <li><a href="Astronaut.html">Astronauts</a></li>
+        <li><a href="Cinema.html">Cinema</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="Test.html">Test</a></li>
+        <li><a href="links.html">Expand</a></li>
+        <li><a href="NewDiscovries.html">New Discovries</a></li>
+      </ul>
+      
+
+    <form>
+        <label><input type="radio" name="background" value="images/galleryBackground.png" checked> Image 1</label>
+        <label><input type="radio" name="background" value="images/galleryBackground2.jpg"> Image 2</label>
+        <label><input type="radio" name="background" value="images/galleryBackground3.jpg"> Image 3</label>
+    </form>
+
+    <script>
+        const radios = document.querySelectorAll('input[type="radio"]');
+        radios.forEach(radio => {
+            radio.addEventListener('change', () => {
+                if (radio.checked) {
+                    document.body.style.backgroundImage = `url(${radio.value})`;
+                }
+            });
+        });
+    </script>
+
+
+	<div class="banner"><h1 class="banner-text">Cinema</h1></div>
+
+	<table>
+        <tr>
+           <th scope="col">Earth From space</th>
+           <th scope="col">Star Size Comparison</th>
+           <th scope="col">Replacing our Sun with other stars</th>
+       </tr>
+        <tr>
+            <td><video controls poster="images/poster1.jpg">
+				<source src="videos/video1.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			 </video></td>
+            <td><video controls poster="images/poster2.jpg" >
+				<source src="videos/video6.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			 </video></td>
+            <td><video controls poster="images/poster3.jpg" >
+				<source src="videos/video3.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			 </video></td>
+        </tr>
+        <tr>
+           <th scope="col">Space Weather and Earth's Aurora</th>
+           <th scope="col">Amazing Journey From Earth to the End of the Universe</th>
+           <th scope="col">Random asteroid collides with earth</th>
+       </tr>
+        <tr>
+            <td><video controls poster="images/poster4.jpg" >
+				<source src="videos/video6.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			 </video></td>
+            <td><video controls poster="images/poster5.jpg" >
+				<source src="videos/video5.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			 </video></td>
+            <td><video controls poster="images/poster6.jpg" >
+				<source src="videos/video6.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+		  	 </video></td>
+        </tr>
+    </table >
+
+
+	   <footer>
+	   	 <h2>See More Videos</h2>
+        <a href="https://youtu.be/tBVUTFPate0"target="_blank"><img src="images/ship.png" alt="Station Tour"></a>
+        <a href="https://youtu.be/uIjNfZbUYu8"target="_blank"><img src="images/ship.png" alt="Wash Hair in Space"></a>
+        <a href="https://youtu.be/_ikouWcXhd0"target="_blank"><img src="images/ship.png"alt="Running in Space!"></a>
+    </footer>
+</body>
+</html>
+

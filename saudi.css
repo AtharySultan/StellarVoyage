@@ -1,0 +1,167 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: transparent; */
+    background: linear-gradient(90deg, rgba(91,33,130,1) 0%, rgba(253,29,29,1) 50%, rgba(238,165,61,1) 100%);
+    backdrop-filter: blur(5px);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:rgba(18, 24, 46) 50%;
+    backdrop-filter: blur(5px);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+         
+li a:hover {
+    background-color: rgba(71, 45, 102);
+    transition: all 0.5s;
+}
+
+body{
+	background-color:black ; 
+	color: white;
+	background-size:cover;
+  background-attachment: fixed;
+
+}
+
+h1{
+	text-align: center;
+  background-color: #135000;
+  margin-top: 100px;
+  margin-bottom:100px ;
+
+}
+
+.p1{
+    margin-top: 100px;
+    margin-bottom:100px ;
+    font-size: 19px;
+}
+
+.p1 img{
+   padding: 15px;
+   margin-top: 15px;
+   cursor: pointer;
+   float: left;
+}
+
+.p2{
+     font-size: 19px;
+    margin-top: 100px;
+    margin-bottom:100px ;
+
+}
+.p2 img{
+  padding: 15px;
+   margin-top: 15px;
+   cursor: pointer;
+   float: left;
+}
+
+
+.p3 table {
+  border-collapse: collapse;
+  background-color: black;
+  margin-top: 200px;
+  margin-left: 35px;
+  width: 50%;
+}
+
+
+.p3 td {
+  text-align: center;
+  padding: 50px;
+
+}
+
+.p3 tr{
+  margin-top: 5px;
+}
+
+
+
+.p4 h2{
+  margin-top: 200px;
+  text-align: center;
+}
+
+
+.p4 table {
+  border-collapse: collapse;
+  background-color: rgba(40, 53, 147, 0.3);
+  padding: 50px;
+  margin-left: 370px;
+  margin-bottom: 200px;
+  width: 40%;
+}
+
+.p4 td {
+  border: 1px solid #fafafa;
+  text-align: left;
+  padding: 8px;
+}
+
+.p4 tr:nth-child(even) {
+  background-color: rgba(40, 53, 147, 0.5);
+}
+
+.hover-box1{
+  position: relative;
+  background-color:rgba(91, 91, 91, 0.3);
+  width: 500px;
+  height: 200px;
+  transition: background-color 1s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin-left:70px;
+}
+.hover-box1 img{
+  position: absolute;
+  top: 15%;
+  left: 45%;
+}
+
+
+.hover-box1 .hidden-text {
+  display: none;
+}
+
+.hover-box1:hover #title {
+  display: none;
+}
+
+.hover-box1:hover #description {
+
+  display: block;
+}
+
+.hover-box1:hover{
+  background-color:rgba(40, 53, 147, 0.3);
+}
+
+
+footer{
+  margin-top:100px ;
+}
